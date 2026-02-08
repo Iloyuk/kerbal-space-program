@@ -1,8 +1,8 @@
-# NYASA Database Documentation
+# Kerbal Space Program Database Documentation
 
 ## Purpose
 
-Defines the structure for the **NYASA** database, which stores information about astronomical objects (galaxies, star systems, stars, planets, constellations), space missions, spacecraft, astronauts, and related findings. It uses a relational model to link these entities together.
+Defines the structure for the **Kerbal Space Program** database, which stores information about astronomical objects (galaxies, star systems, stars, planets, constellations), space missions, spacecraft, astronauts, and related findings. It uses a relational model to link these entities together.
 
 ## Structure
 
@@ -133,8 +133,8 @@ The schema consists of several tables, linked primarily through foreign keys. ON
 To rebootstrap the database with sample data, run the commands in `starsystems.sql` sequentially. If one wishes to not add the sample data, ignore the `INSERT INTO` statements.
 
 ```sql
-CREATE DATABASE IF NOT EXISTS NYASA;
-USE NYASA;
+CREATE DATABASE IF NOT EXISTS KERBALSPACEPROGRAM;
+USE KERBALSPACEPROGRAM;
 
 SET FOREIGN_KEY_CHECKS = 0;
 
